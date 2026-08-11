@@ -117,7 +117,7 @@ If you use this code or results in your research, please cite:
   pages     = {345--351},
   publisher = {IEEE},
   isbn      = {979-8-3315-5668-6},
-  doi       = {TODO: confirm IEEE Xplore DOI}
+  doi       = {https://doi.org/10.1109/3SCEA68071.2026.11603016}
 }
 ```
 
