@@ -107,6 +107,7 @@ If you use this code or results in your research, please cite:
 > on Generalization of a Transformer-Based EEG Imagined Speech Recognition," in *2026 IEEE International
 > Conference on Smart Sustainable Systems for Computer and Engineering Applications (3SCEA)*, 2026,
 > pp. 345–351.
+> DOI: https://doi.org/10.1109/3SCEA68071.2026.11603016
 
 ```bibtex
 @inproceedings{Elwasify2026EEGPreprocessing,
