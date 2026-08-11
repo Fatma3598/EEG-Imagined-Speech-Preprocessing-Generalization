@@ -1,4 +1,4 @@
-# EEG Imagined Speech Recognition — Preprocessing Impact on a Transformer-Based Decoder (NetTraST)
+# Comparative Analysis of EEG Signal Preprocessing Impact on Generalization of a Transformer-Based EEG Imagined Speech Recognition
 
 This repository contains the code and computational artifacts associated with a published study on the
 effect of EEG signal preprocessing (frequency-band selection and ICA) on the generalization of a
