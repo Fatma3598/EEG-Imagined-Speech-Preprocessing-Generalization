@@ -121,7 +121,3 @@ If you use this code or results in your research, please cite:
 }
 ```
 
-> **Note on bibliographic fields:** authors, title, venue, year, pages (345–351), and ISBN
-> (979-8-3315-5668-6) are taken directly from the paper. The paper's own DOI is not printed in the
-> camera-ready PDF; the `doi` field above is marked **TODO: confirm** and should be filled from the final
-> IEEE Xplore record. Do not cite a DOI until verified.
