@@ -1,0 +1,13 @@
+validation_protocol,preprocessing,accuracy_pct,uncertainty_pct,uncertainty_type,notebook_cell,notes
+random,bandpass+ICA,65.59,5.50,1.96xSE,frozen_72,
+random,bandpass-ICA,11.78,5.10,1.96xSE,frozen_76,
+random,bandreject+ICA,94.60,1.10,1.96xSE,frozen_79,
+random,bandreject-ICA,69.10,2.60,1.96xSE,frozen_84,
+groupkfold,bandpass+ICA,66.15,15.94,t-CI,frozen_108,window-level grouping
+groupkfold,bandpass-ICA,10.09,0.45,t-CI,frozen_111,window-level grouping
+groupkfold,bandreject+ICA,95.66,0.87,t-CI,frozen_113,window-level grouping
+groupkfold,bandreject-ICA,71.87,2.38,t-CI,frozen_117,window-level grouping
+loso,bandpass+ICA,49.39,7.74,t-CI,frozen_91,20/80 calibration
+loso,bandpass-ICA,7.21,1.40,t-CI,frozen_94,20/80 calibration
+loso,bandreject+ICA,86.37,13.71,raw-SD,frozen_97,uncertainty is raw SD not CI
+loso,bandreject-ICA,39.01,4.33,t-CI,frozen_103,notebook prints 39.08 vs paper 39.01
