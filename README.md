@@ -22,11 +22,19 @@ The parameterized notebook is intended for **reproduction and exploration**; the
 results* (from the frozen artifact), *deterministic parity* (the parts of the pipeline verifiable against the
 frozen artifact without training), and *reproduction/exploration* (re-running or varying configurations).
 
+## Parameterized Reproduction Workflow
+
+![Parameterized Reproduction Workflow — experimental choices are configured from a single block; the selected pipeline is handled automatically.](docs/parameterized_reproduction_workflow.png)
+
+*The user sets the configuration variables; preprocessing, filtering, windowing, and validation-protocol selection are handled automatically, with no downstream cell editing.*
+
 ## Repository structure
 
 ```
 repository/
 ├── README.md
+├── docs/
+│   └── parameterized_reproduction_workflow.png
 ├── notebooks/
 │   ├── 01_publication_state_FROZEN.ipynb
 │   └── 02_reproduction_parameterized.ipynb
